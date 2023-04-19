@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+div {
+    border: 1px dashed gray;
+}
+.kaireJuosta {
+    display: inline-block;
+    height: 500px;
+    width: 40%;
+    margin: 50px;
+}
+.desineJuosta {
+    display: inline-block;
+    height: 500px;
+    width: 40%;
+    margin: 50px;
+}
+.line{
+    width: 99%;
+    height: 40px;
+}
