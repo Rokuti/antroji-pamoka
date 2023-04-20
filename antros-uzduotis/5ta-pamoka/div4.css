@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+div {
+    border: 1px dashed gray;
+    vertical-align: top;
+}
+.kaireJuosta {
+    display: inline-block;
+    height: 500px;
+    width: 30%;
+    margin: 50px;
+}
+.desineJuosta {
+    display: inline-block;
+    height: 500px;
+    width: 50%;
+    margin: 50px;
+}
+.vidiniai {
+    margin: 40px;
+    height: 100px;
+    width: 80%;
+    border: solid black  1px;
+}
+.desinysVidinis {
+    margin: 40px;
+    height: 150px;
+    width: 80%;
+}
+.desinysApatinis {
+    margin: 45px;
+    height: 150px;
+    width: 30%;
+    display: inline-block;
+}

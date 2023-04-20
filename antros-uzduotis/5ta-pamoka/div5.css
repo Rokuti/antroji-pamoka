@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+div {
+    border: 1px dashed gray;
+    vertical-align: top;
+}
+.kaireJuosta {
+    display: inline-block;
+    height: 500px;
+    width: 40%;
+    margin: 50px;
+}
+.desineJuosta {
+    display: inline-block;
+    height: 500px;
+    width: 40%;
+    margin: 50px;
+}
+.vidiniai {
+    margin: 30px;
+    height: 100px;
+    width: 80%;
+    border: solid black  1px;
+}
+.desinysVidinis {
+    margin: 30px;
+    height: 150px;
+    width: 30%;
+    display: inline-block;
+}
+.desinysApatinis1 {
+    margin: 30px;
+    height: 150px;
+    width: 40%;
+    display: inline-block;
+}
+.vidinis2 {
+    margin: 40px;
+    height: 100px;
+    width: 30%;
+    display: inline-block;
+}
+.ispraustas {
+    margin: 20px;
+    height: 50px;
+    width: 30%;
+}
+.desinysApatinis2 {
+    margin: 30px;
+    height: 150px;
+    width: 20%;
+    display: inline-block;
+}
