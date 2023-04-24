@@ -1,0 +1,26 @@
+.isore{
+    display: flex;
+    border: 2px solid orange;
+}
+.vidus1{
+    color: aliceblue;
+    background-color: crimson;
+width: 10%;
+padding: 5px;
+}
+.vidus2{
+background-color: aqua;
+color: aliceblue;
+width: 10%;
+padding: 5px;
+}
+.vidus3{
+    background-color: aliceblue;
+    width: 70%;
+}
+.vidus4{
+    color: aliceblue;
+    background-color: chartreuse;
+    padding: 5px;
+    width: 10%;
+}

@@ -1,0 +1,27 @@
+.isore{
+    display: flex;
+    height: 370px;
+    width: 50%;
+    flex-direction: column;
+    border: 3px solid orange;
+}
+.vidus1{
+    width: 80%;
+    border: 3px solid blueviolet;
+    padding: 20px;
+    margin: 20px;
+}
+.vidus2{
+    width: 80%;
+    border: 3px solid blueviolet;
+    text-align: end;
+    padding: 20px;
+    margin: 20px;
+}
+.vidus3{  
+      width: 80%;
+    border: 3px solid blueviolet;
+    padding: 20px;
+    margin: 20px;
+
+}

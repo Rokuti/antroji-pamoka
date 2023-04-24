@@ -1,0 +1,11 @@
+.isore{
+    display: flex;
+    width: 50%;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.a{
+text-align: center;
+border: 3px solid blue;
+border-radius: 5px;
+}

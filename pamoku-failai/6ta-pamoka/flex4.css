@@ -1,0 +1,23 @@
+.isore{
+    display: flex;
+    border: 2px;
+    border-radius: 6px;
+    border: 2px  cornflowerblue solid;
+    width: 40%;
+    flex-wrap: wrap;
+    height: 200px;
+    align-items: start;
+}
+.vidus{
+    display: flex;
+    border: cadetblue 2px solid;
+    border-radius: 6px;
+    width: 15%;
+    background-color: aquamarine;
+    text-decoration: aliceblue;
+    margin: 9px;
+    padding: 6px;
+    align-self:flex-start;
+    flex-basis: content;
+
+}

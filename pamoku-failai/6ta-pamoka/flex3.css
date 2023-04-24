@@ -1,0 +1,18 @@
+.isore{
+    display: flex;
+    width: 300px;
+    height: 300px;
+    border: solid lightskyblue 2px;
+    border-radius: 5px;
+    align-items: center;
+    padding: 120px;
+    justify-content: center;
+}
+.vidus{
+    text-align: center;
+    background-color: lightseagreen;
+    height: 40px;
+    width: 100px;
+justify-content: center;
+padding: 10px 20px 0px 20px;
+}
