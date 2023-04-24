@@ -3,9 +3,58 @@
     width: 50%;
     flex-wrap: wrap;
     flex-direction: row;
+    height: 400px;
+    align-items:start;
 }
 .a{
 text-align: center;
 border: 3px solid blue;
 border-radius: 5px;
+width: 90%;
+text-align: center;
+font-size: 40px;
+align-items: center;
+margin: 5px;
+padding: 15px;
 }
+.b{
+    text-align: center;
+    border: 3px solid blue;
+    border-radius: 5px;
+    width: 60%;
+    text-align: center;
+    font-size: 40px;
+    margin: 5px;
+    padding: 15px;
+    
+ }
+.c{
+        text-align: center;
+        border: 3px solid blue;
+        border-radius: 5px;
+        text-align: center;
+        font-size: 40px;
+        width: 10%;
+        margin: 5px;
+        padding: 15px;
+        }
+        .d{
+            text-align: center;
+            border: 3px solid blue;
+            border-radius: 5px;
+            text-align: center;
+            width: 10%;
+            font-size: 40px;
+            margin: 5px;
+            padding: 15px;
+            }
+            .e{
+                text-align: center;
+                border: 3px solid blue;
+                border-radius: 5px;
+                text-align: center;
+                width: 60%;
+                font-size: 40px;
+                margin: 5px;
+                padding: 15px;
+                }

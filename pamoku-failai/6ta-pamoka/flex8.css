@@ -1,0 +1,16 @@
+.header{
+    height: 100px;
+    width: 99%;
+    background-color: chartreuse;
+
+}
+*{
+    padding: 5px;
+}
+.ar{
+    background-color: azure;
+    flex-grow: 3;
+}
+.as{
+    
+}
