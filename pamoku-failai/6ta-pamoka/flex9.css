@@ -23,6 +23,7 @@
 .nav{
     background-color: aquamarine;
     width: 20%;
+    align-self:flex-start;
 }
 .fo{
 background-color: chartreuse;
@@ -31,7 +32,4 @@ width: 99%;
 }
 * {
     box-sizing: border-box;
-}
-.body{
-    align-content: flex-start
 }
