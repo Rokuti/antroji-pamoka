@@ -14,12 +14,13 @@
 }
 .as{
     background-color: darkseagreen;
-    width: 20%;
+    width: 19%;
     height: 600px;
+    align-self: flex-end;
 }
 .vidus{
     display: flex;
-    width: 79%;
+    width: 59%;
     flex-direction: column;
 }
 .nav{
@@ -52,11 +53,17 @@ width: 79%;
     flex-direction: column;
 }
 .arti2{
+    display: flex;
     flex-direction: column;
     display: inline;
 }
 
 .bendras{
+    display: flex;
     flex-direction: row;
     align-items:flex-start;
+}
+.body{
+    display: flex;
+    height: 800px;
 }
