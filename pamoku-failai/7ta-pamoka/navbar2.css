@@ -1,0 +1,29 @@
+.navbar > ul {
+    display: flex;
+    list-style-type: none;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+    background-color: rgb(199, 194, 194);
+}
+.navbar a {
+    text-decoration: none;
+    display: block;
+    width: 20%;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: rgb(102, 103, 104);
+    background-color: rgb(199, 194, 194);
+}
+.contact{
+    background-color: aqua;
+}
+.space{
+    width: 90%;
+}
+.navbar a:hover {
+    background-color: rgb(161, 164, 161);
+}
