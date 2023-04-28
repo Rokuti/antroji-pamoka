@@ -1,6 +1,6 @@
 .navbar > ul {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     list-style-type: none;
     margin-block-start: 0;
     margin-block-end: 0;

@@ -1,0 +1,14 @@
+p::before {
+    content: ">>";
+}
+a+a:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+  }
+
+a {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
