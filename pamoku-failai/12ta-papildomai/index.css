@@ -1,0 +1,19 @@
+.navbar > ul {
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    justify-content: space-around;
+    
+    }
+    a{
+        text-decoration: none;
+        border: 2px solid blue;
+        padding: 5px;
+        background-color: crimson;
+        color: aliceblue;
+    
+    }
+    a:hover{
+        background-color: aquamarine;
+        color: black;
+    }
