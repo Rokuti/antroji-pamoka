@@ -1,5 +1,5 @@
 window.onload = function(){
-let r = prompt("skersmuo");
+let r = +prompt("skersmuo");
 alert (plotas(r));
 }
 function plotas(a){

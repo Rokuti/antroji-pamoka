@@ -1,9 +1,9 @@
 window.onload = function(){
-let change = prompt("skaicius pls:");
+let change = +prompt("skaicius pls:");
 console.log(keicia(change));
-let x = prompt("kazka");
-let z = prompt("dar");
-let y = prompt("dar kazka");
+let x = +prompt("kazka");
+let z = +prompt("dar");
+let y = +prompt("dar kazka");
 alert(x+" "+z+" "+y);
 a = 1;
 b = 2;

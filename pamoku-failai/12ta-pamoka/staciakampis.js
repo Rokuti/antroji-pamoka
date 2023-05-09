@@ -1,7 +1,7 @@
 window.onload = function() {
-    let x = prompt("ilgis");
-    let y = prompt("plotis");
-    let z = prompt("aukstis");
+    let x = +prompt("ilgis");
+    let y = +prompt("plotis");
+    let z = +prompt("aukstis");
     alert (staciakampis(x,y,z));
 }
 

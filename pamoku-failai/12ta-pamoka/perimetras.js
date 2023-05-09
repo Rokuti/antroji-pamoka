@@ -1,6 +1,6 @@
 window.onload = function() {
-    let x = prompt("vertikali linija");
-    let y = prompt("herizontali linija");
+    let x = +prompt("vertikali linija");
+    let y = +prompt("herizontali linija");
     alert (perimetras(x,y));
 }
 

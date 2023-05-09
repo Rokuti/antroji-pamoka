@@ -1,7 +1,7 @@
 window.onload = function(){
-    let x = prompt("pirmas sekos skaicius");
-    let y = prompt("antras sekos skaicius");
-    let n = prompt("kelintas kinatamasis");
+    let x = +prompt("pirmas sekos skaicius");
+    let y = +prompt("antras sekos skaicius");
+    let n = +prompt("kelintas kinatamasis");
     alert (nNarys(x,y,n));
 }
 

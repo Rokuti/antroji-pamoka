@@ -1,6 +1,6 @@
 window.onload = function(){
-let x = prompt("x asis");
-let y = prompt("y asis");
+let x = +prompt("x asis");
+let y = +prompt("y asis");
 alert (kordinates(x,y));
 }
 
