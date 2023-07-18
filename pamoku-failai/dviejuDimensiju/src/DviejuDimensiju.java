@@ -15,6 +15,7 @@ public class DviejuDimensiju {
         int[][] multidimensionalArray= new int[rows][columns];
         int suma = 0;
         int eiluciuSuma = 0;
+        int daugybosSuma = 1;
 
         // Now you can use the array like a regular
         // 2-dimensional array
