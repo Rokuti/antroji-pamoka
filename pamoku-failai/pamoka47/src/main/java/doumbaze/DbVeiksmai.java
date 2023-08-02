@@ -1,5 +1,6 @@
 package doumbaze;
 
+import entity.Klientas;
 import entity.Produktas;
 
 import java.sql.*;
@@ -10,6 +11,7 @@ public class DbVeiksmai {
     private static final String DB_USER = "root";
     private static final String DB_PSW = "";
     private static final String Q_SELECT_PRODUKTAI = "select * from produktai";
+    private static final String Q_SELECT_KLIENTAI = "select * from klientai";
     public static Connection prisijungtiPrieDb() {
         Connection jungtis;
         try {
@@ -36,5 +38,22 @@ public class DbVeiksmai {
             throw new RuntimeException(e);
         }
         return visiProduktai;
+    }
+    public static ArrayList<Klientas> gautiVisusKlientus(Connection jungtis) {
+        ArrayList<Klientas> visiKlietai = new ArrayList<>();
+        try {
+            PreparedStatement paruostukas = jungtis.prepareStatement(Q_SELECT_KLIENTAI);
+            ResultSet rs = paruostukas.executeQuery();
+            while (rs.next()) {
+                Klientas klientas = new Klientas();
+                klientas.setId(rs.getLong("id"));
+                klientas.setPavadinimas(rs.getString("pavadinimas"));
+                klientas.setValstija(rs.getString("valstija"));
+                visiKlietai.add(klientas);
+            }
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+        return visiKlietai;
     }
 }
