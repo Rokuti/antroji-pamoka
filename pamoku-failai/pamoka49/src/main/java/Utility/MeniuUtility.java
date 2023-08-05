@@ -17,7 +17,7 @@ public class MeniuUtility {
         System.out.println("4. Ištrinti produktą pagal ID");
         System.out.println("5. Atnaujinti produktą pagal ID");
         System.out.println("6. Įdėti naują produktą");
-        System.out.println("0. Sustabydti programą");
+        System.out.println("0. Klientu meniu ");
     }
 
     public static void vykdytiMeniu(Connection jungtis) {
