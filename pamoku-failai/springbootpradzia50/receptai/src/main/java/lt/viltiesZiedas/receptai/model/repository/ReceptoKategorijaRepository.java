@@ -6,5 +6,5 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface ReceptoKategorijaRepository extends JpaRepository<ReceptoKategorija, Long> {
-
+    ReceptoKategorija findById(long id);
 }
