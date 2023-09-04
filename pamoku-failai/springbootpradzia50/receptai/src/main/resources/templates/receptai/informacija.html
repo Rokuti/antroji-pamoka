@@ -10,8 +10,27 @@
     <title>Visos kategorijos</title>
 </head>
 <body>
-<div th:each="kategorija : ${visosKategorijos}" class="list-group">
-    <a th:text="${kategorija.getPavadinimas()}" th:href="@{/kategorijos/visi-receptai/} + ${kategorija.getId()}" class="list-group-item list-group-item-action"></a>
-</div>
+<table class="table table-striped">
+    <tr>
+        <th>Pavadinimas</th>
+        <td th:text="${receptas.getPavadinimas()}"></td>
+    </tr>
+    <tr>
+        <th>Aprašymas</th>
+        <td th:text="${receptas.getAprasymas()}"></td>
+    </tr>
+    <tr>
+        <th>Kaina</th>
+        <td th:text="${receptas.getKaina()}"></td>
+    </tr>
+    <tr>
+        <th>Kalorijos per 100 gramų</th>
+        <td th:text="${receptas.getKalorijosPer100g()}"></td>
+    </tr>
+    <tr>
+        <th>Kategorija</th>
+        <td th:text="${receptas.getKategorija().getPavadinimas()}"></td>
+    </tr>
+</table>
 </body>
 </html>
