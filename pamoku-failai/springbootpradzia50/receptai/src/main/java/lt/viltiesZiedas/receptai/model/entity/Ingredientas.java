@@ -91,7 +91,6 @@ public class Ingredientas {
                 ", aprasymas='" + aprasymas + '\'' +
                 ", kaina=" + kaina +
                 ", kolorijosPer100g=" + kolorijosPer100g +
-                ", receptai=" + receptai +
                 '}';
     }
 }

@@ -115,9 +115,6 @@ public class Receptas {
                 ", aprasymas='" + aprasymas + '\'' +
                 ", kaina=" + kaina +
                 ", kalorijosPer100g=" + kalorijosPer100g +
-                ", kategorija=" + kategorija +
-                ", ingredientai=" + ingredientai +
-                ", komentarai=" + komentarai +
                 '}';
     }
 }

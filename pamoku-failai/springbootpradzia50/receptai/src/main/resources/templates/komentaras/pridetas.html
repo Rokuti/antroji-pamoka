@@ -7,11 +7,10 @@
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-  <title>Visos kategorijos</title>
+  <title>Komentaras pridėtas</title>
 </head>
 <body>
-<div th:each="kategorija : ${visosKategorijos}" class="list-group">
-  <a th:text="${kategorija.getPavadinimas()}" th:href="@{/kategorijos/visiReceptai/} + ${kategorija.getId()}" class="list-group-item list-group-item-action"></a>
-</div>
+<div th:insert="fragments/navbar.html"></div>
+<h4>Komentaras pridėtas</h4>
 </body>
 </html>

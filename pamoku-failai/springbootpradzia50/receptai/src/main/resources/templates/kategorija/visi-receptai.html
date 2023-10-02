@@ -10,6 +10,7 @@
   <title>Filmų paieška</title>
 </head>
 <body>
+<div th:insert="fragments/navbar.html"></div>
 <h3 th:text="${kategorija.getPavadinimas()}"></h3>
 <div th:each="receptas : ${kategorija.getReceptai()}" class="list-group">
   <a th:text="${receptas.getPavadinimas()}" th:href="@{/receptai/informacija/} + ${receptas.getId()}" class="list-group-item list-group-item-action"></a>

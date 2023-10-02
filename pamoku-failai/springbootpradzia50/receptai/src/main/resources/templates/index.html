@@ -7,14 +7,9 @@
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-  <title>Pridėti kategoriją</title>
+  <title>Receptų puslapis</title>
 </head>
 <body>
 <div th:insert="fragments/navbar.html"></div>
-<form th:action="@{/kategorija/pridetas}" th:object="${kategorija}" method="post">
-  <input th:field="*{id}" type="hidden" name="id" id="id">
-  <input th:field="*{pavadinimas}" type="text" name="pavadinimas" id="pavadinimas">
-  <input type="submit" value="Pridėti/atnaujinti kategoriją">
-</form>
 </body>
 </html>

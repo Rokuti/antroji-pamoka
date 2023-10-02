@@ -22,14 +22,14 @@ public class ReceptoKategorijaController {
     public String gautiVisasKategorijas(Model model) {
         List<ReceptoKategorija> visosKategorijos = receptoKategorijaRepository.findAll();
         model.addAttribute("visosKategorijos", visosKategorijos);
-        return "kategorija/visosKategorijos.html";
+        return "kategorija/visos-kategorijos.html";
     }
 
-    @GetMapping("/kategorijos/visiReceptai/{id}")
+    @GetMapping("/kategorijos/visi-receptai/{id}")
     public String kategorijosReceptai(Model model, @PathVariable long id) {
         ReceptoKategorija kategorija = receptoKategorijaRepository.findById(id);
         model.addAttribute("kategorija", kategorija);
-        return "kategorija/visiReceptai.html";
+        return "kategorija/visi-receptai.html";
     }
 
     @PostMapping("/kategorija/istrinti/{id}")
